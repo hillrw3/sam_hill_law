@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SamHillLaw</title>
+  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<div class="container">
+  <h1 class="centered-text title">The Law Offices of Sam Hill, LLC</h1>
+  <hr/>
+  <nav>
+    <ul class="nav-bar">
+      <li><%= link_to "Home", root_path %></li>
+      <li><%= link_to "Sam Hill", root_path %></li>
+      <li><%= link_to "Contact Us", root_path %></li>
+    </ul>
+  </nav>
+  <br/>
+  <%= yield %>
+</div>
+</body>
+</html>
