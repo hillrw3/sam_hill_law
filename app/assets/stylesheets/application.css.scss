@@ -1,5 +1,6 @@
 /*
  *= require_tree .
+ *= require reveal
  *= require_self
  */
 
@@ -49,4 +50,10 @@
 
 ul {
   list-style: none;
+}
+
+img {
+  max-width: 35%;
+  float: left;
+  padding-right: 3%;
 }
