@@ -40,11 +40,16 @@
     width: 20%;
     position: relative;
     margin-left: 5%;
-    margin-top: -100%;
     * {
       text-align: left;
       padding: 0;
     }
+  }
+
+  .two-section{
+    display: inline-block;
+    width: 45%;
+    position: relative;
   }
 }
 
@@ -57,3 +62,4 @@ img {
   float: left;
   padding-right: 3%;
 }
+
