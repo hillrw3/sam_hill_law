@@ -4,6 +4,10 @@
  *= require_self
  */
 
+body {
+  background-image: url('seamless_paper_texture.png');
+}
+
 .container {
   width: 70%;
   margin: auto;
@@ -61,5 +65,11 @@ img {
   max-width: 35%;
   float: left;
   padding-right: 3%;
+}
+
+.myModal {
+  * {
+    background: none;
+  }
 }
 
