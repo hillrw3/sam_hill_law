@@ -41,4 +41,4 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'rspec'
 gem 'capybara'
 gem "rspec-rails", "3.0.1"
-
+gem 'rails_12factor'
